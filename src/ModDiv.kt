@@ -1,24 +1,46 @@
 fun main() {
+
+    /*
+    1.1278217 ədədində 78 ədədini mod və div əməliyyatlarından istifadə edərək ekrana cixardin
+    */
+
     val num1 = 1278217
     val result = ((1278217 % 100000) / 1000)
     println(result)
 
+    /*
+    2.1278217 ədədində 2782 ədədini mod və div əməliyyatlarından istifadə edərək ekrana cixardin
+    */
+
     val result2 = ((num1 / 100) % 10000)
     println(result2)
+
+    /*
+    3.238545 ədədində 8 ədədini mod və div əməliyyatlarından istifadə edərək ekrana cixardin
+    */
 
     val num2 = 238545
     val result3 = ((num2 / 1000) % 10)
     println(result3)
 
+    /*
+    4.238545 ədədində 23 ədədini mod və div əməliyyatlarından istifadə edərək ekrana cixardin
+    */
+
     val result4 = (num2 / 10000)
     println(result4)
+
+    /*
+    5.238545 ədədində hər bir ədədi mod və div əməliyyatlarından istifadə edərək tapin
+    və onlarin cemini tapin.(Numune:2+3+8+5+4+5)
+    */
 
     val resul5 = ((num2 / 100000) + (num2 / 10000 % 10) + (num2 / 1000 % 10) + (num2 % 1000 / 100) +
             (num2 % 100 / 10) + (num2 % 10))
     println(resul5)
 
 
-
+    println("--------------------------------------------------")
 
     /*
     1.238545 ədədində ədədləri iki-iki mod və div əməliyyatlarından istifadə edərək tapin
