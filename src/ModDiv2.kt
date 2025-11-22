@@ -53,7 +53,7 @@ fun main() {
     println(sub * sub)
 
     /*
-    val num1=290
+    6.val num1=290
     val num2=num1.toByte()
     println(num2)
     Cavab:34
@@ -62,7 +62,7 @@ fun main() {
 
     /*
     CAVAB:
-    6.290-u ikilik say sistemine 2-ye bole bole qaliqlari tersine goturerek yaziriq
+    290-u ikilik say sistemine 2-ye bole bole qaliqlari tersine goturerek yaziriq
     010001001 - 100100010
     byte 8 bit yaddas saxlaya bilir bu ise 9 bitlikdir
     00100010 bu hisseni cevirir o da - 34 edir
