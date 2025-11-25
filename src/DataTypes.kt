@@ -33,7 +33,7 @@ fun main() {
     */
     val char = 'A'
     val char2 = 'B'
-    val uniSum = char.toInt() + char2.toInt()
+    val uniSum = char.code + char2.code
     println(uniSum)
 
     /*
