@@ -188,23 +188,16 @@ fun main() {
     }
 
     if (month == 1 || month == 3 || month == 5 || month == 7 ||
-        month == 8 || month == 10 || month == 12
-    ) {
-
+        month == 8 || month == 10 || month == 12) {
         println("31 days")
-    }
-
-    if (month == 4 || month == 6 || month == 9 || month == 11) {
+    } else if (month == 4 || month == 6 || month == 9 || month == 11) {
         println("30 days")
-    }
-
-    if (month == 2) {
+    } else if (month == 2) {
         if ((year % 4 == 0 || year % 400 == 0) && year % 100 != 0) {
             println("29 days")
         } else {
             println("28 days")
         }
-
     }
 
     /*
