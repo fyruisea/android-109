@@ -17,15 +17,13 @@ fun main() {
     2.Ekrandan daxil edilmis ededin cut olub olmadigini yoxlayan proqram yazin
     */
 
-    println("Natural eded daxil edin:")
+    println("Eded daxil edin:")
     val num = readln().toInt()
 
     if (num % 2 == 0 && num > 0) {
         println("Eded cut ededdir")
-    } else if (num % 2 == 1) {
-        println("Eded tek ededdir")
     } else {
-        println("Eded natural eded deyil")
+        println("Eded tek ededdir")
     }
 
     /*
