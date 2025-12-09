@@ -24,7 +24,8 @@ fun main() {
     println(mean)
 
     /*
-    2.100-1000 araliginda butun sade ve murekkeb ededlerin sayini tapan proqram yazin.Her ikisinin sayini
+    2.100-1000 araliginda butun sade ve murekkeb ededlerin sayini tapan proqram yazin.
+    Her ikisinin sayini
     */
 
     var prime = 0
@@ -52,7 +53,8 @@ fun main() {
     )
 
     /*
-    3.100-1000 araliginda reqemlerinin cemi 10-dan boyuk olan ededlerin ededi ortasini tapin.Numune 945=17(true) 123=6(false)
+    3.100-1000 araliginda reqemlerinin cemi 10-dan boyuk olan ededlerin ededi ortasini tapin.
+    Numune 945=17(true) 123=6(false)
     */
 
 
@@ -76,7 +78,8 @@ fun main() {
 
 
     /*
-    4.100-1000 araliginda ededin tersi cut olan ededlerin cemini tapin. 123=321(false) 442=244(true)
+    4.100-1000 araliginda ededin tersi cut olan ededlerin cemini tapin.
+    123=321(false) 442=244(true)
     */
     var sumOfReversed = 0
     for(item in 100..1000) {
