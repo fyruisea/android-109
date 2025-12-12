@@ -84,7 +84,7 @@ fun main() {
         for(item2 in 1..5-item) {
             print(" ")
         }
-        for(item3 in 1..item*2-1) {
+        for(item3 in 1..<item*2) {
             print("*")
         }
         println()
@@ -94,8 +94,42 @@ fun main() {
         for(item2 in 1..5-item) {
             print(" ")
         }
-        for(item3 in 1..item*2-1) {
+        for(item3 in 1..<item*2) {
             print("*")
+        }
+        println()
+    }
+
+    for(char1 in 'A'..'E') {
+        for(char2 in 'A'..char1) {
+           print(char2)
+        }
+        println()
+    }
+
+    for(char1 in 'E' downTo 'A') {
+        for(char2 in char1..'E') {
+            print(char2)
+        }
+        println()
+    }
+    for(char1 in 'A'..'E') {
+        for(char2 in char1 downTo 'A') {
+            print(char2)
+        }
+        println()
+    }
+
+    for(char1 in 'A'..'E') {
+        for(char2 in 'A'..char1) {
+            print(char1)
+        }
+        println()
+    }
+
+    for(char1 in 'A'..'E') {
+        for(char2 in 'E' downTo char1) {
+            print(char2)
         }
         println()
     }
